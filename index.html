@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>..</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(to right, #ffafbd, #ffc3a0);
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+            background-size: cover;
+        }
+        .container {
+            background-color: rgba(255, 255, 255, 0.9);
+            border-radius: 25px;
+            padding: 40px;
+            width: 100%;
+            max-width: 850px;
+            text-align: center;
+            box-shadow: 0 15px 45px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+            animation: fadeIn 1.5s ease-out;
+        }
+        .container:hover {
+            transform: translateY(-10px);
+        }
+        h1 {
+            color: #e60000;
+            font-size: 32px;
+            font-weight: bold;
+            margin-bottom: 25px;
+            font-family: 'Cairo', sans-serif;
+        }
+        .message {
+            font-size: 22px;
+            line-height: 1.8;
+            color: #444;
+            margin-bottom: 30px;
+            font-weight: 300;
+            letter-spacing: 0.5px;
+        }
+        .verse {
+            font-size: 24px;
+            font-weight: bold;
+            color: #2d6a4f;
+            margin-top: 20px;
+            line-height: 1.8;
+            padding: 10px;
+            border-left: 5px solid #2d6a4f;
+            background-color: #f0f8f0;
+            margin-bottom: 30px;
+            border-radius: 8px;
+        }
+        .verse q {
+            quotes: "“" "”" "‘" "’";
+        }
+        .verse img {
+            width: 100%;
+            height: auto;
+            max-width: 300px;
+            object-fit: cover;
+            border-radius: 50%;
+            margin-top: 20px;
+            transition: transform 0.3s ease-in-out;
+        }
+        .verse img:hover {
+            transform: scale(1.1);
+        }
+        .audio-container {
+            margin-top: 20px;
+            padding: 10px;
+            border-radius: 10px;
+            background-color: #f9f9f9;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+        .audio-container:hover {
+            transform: translateY(-5px);
+        }
+        .audio-container audio {
+            width: 100%;
+            max-width: 400px;
+            border-radius: 15px;
+            background-color: #e8f9e8;
+            padding: 10px;
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+        }
+        .cta-text {
+            display: inline-block;
+            font-size: 18px;
+            color: #e60000;
+            font-weight: bold;
+            text-decoration: none;
+            margin-top: 20px;
+            transition: color 0.3s ease;
+        }
+        .cta-text:hover {
+            color: #b40000;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .container {
+                padding: 25px;
+                width: 90%;
+            }
+            h1 {
+                font-size: 28px;
+            }
+            .message {
+                font-size: 18px;
+            }
+            .verse {
+                font-size: 20px;
+            }
+            .audio-container audio {
+                max-width: 100%;
+            }
+        }
+
+        /* Keyframes for fade-in animation */
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+                transform: translateY(50px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>كل سنة وأنتِ بخير يا روان بمناسبة مرور تلث سنين على حجابك ❤</h1>
+    <p class="message">
+        ما شاء الله، الحجاب زادك نور وجمال، وربنا يثبتك ويزيدك إيمانًا وقربًا منه. 
+        وانتِ مثال جميل للالتزام الحقيقي. 
+        ربنا يحفظك ويجعل كل خطوة في حياتك مليانة بركة وسعادة 🌸💕.
+    </p>
+
+    <p class="verse">
+        <q>
+            وَقُل لِّلْمُؤْمِنَاتِ يَغْضُضْنَ مِنْ أَبْصَارِهِنَّ وَيَحْفَظْنَ فُرُوجَهُنَّ وَلَا يُبْدِينَ زِينَتَهُنَّ إِلَّا مَا ظَهَرَ مِنْهَا ۖ وَلْيَضْرِبْنَ بِخُمُرِهِنَّ عَلَىٰ جُيُوبِهِنَّ ۖ وَلَا يُبْدِينَ زِينَتَهُنَّ إِلَّا لِبُعُولَتِهِنَّ أَوْ آبَائِهِنَّ أَوْ آبَاءِ بُعُولَتِهِنَّ أَوْ أَبْنَائِهِنَّ أَوْ أَبْنَاءِ بُعُولَتِهِنَّ أَوْ إِخْوَانِهِنَّ أَوْ بَنِي إِخْوَانِهِنَّ أَوْ بَنِي أَخَوَاتِهِنَّ أَوْ نِسَائِهِنَّ أَوْ مَا مَلَكَتْ أَيْمَانُهُنَّ أَوِ التَّابِعِينَ غَيْرِ أُولِي الْإِرْبَةِ مِنَ الرِّجَالِ أَوِ الطِّفْلِ الَّذِينَ لَمْ يَظْهَرُوا عَلَىٰ عَوْرَاتِ النِّسَاءِ ۖ وَلَا يَضْرِبْنَ بِأَرْجُلِهِنَّ لِيُعْلَمَ مَا يُخْفِينَ مِن زِينَتِهِنَّ ۚ وَتُوبُوا إِلَى اللَّهِ جَمِيعًا أَيُّهَ الْمُؤْمِنُونَ لَعَلَّكُمْ تُفْلِحُونَ 
+        </q>
+        <br>
+        <span>- سورة النور، آية 31</span>
+    </p>
+
+    <img src="" alt="Photo" style="width: 100%; height: auto; max-width: 300px; object-fit: cover; border-radius: 50%;">
+
+    <div class="audio-container">
+        <audio controls>
+            <source src="سورة النور 31.mp3" type="audio/mp3">
+            متصفحك لا يدعم مشغل الصوت.
+        </audio>
+    </div>
+
+</div>
+
+</body>
+</html>
